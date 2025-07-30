@@ -10,7 +10,6 @@ header {
     align-items: center;
 
     #mainT {
-
         @media (min-width: 320px) {
             padding: 10px;
         }
@@ -26,22 +25,19 @@ header {
         @media (min-width: 1025px) {
             padding: 25px;
         }
-
     }
 
     .lista {
-        float: right;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         justify-content: flex-end;
         margin-left: auto;
+        flex-direction: row;
 
         li {
-            float: left;
             display: flex;
-            flex-direction: column;
             gap: 10px;
 
             a {
@@ -76,7 +72,6 @@ header {
 }
 
 .hero {
-
     @media (min-width: 320px) {
         padding: 10px;
     }
@@ -92,7 +87,6 @@ header {
     @media (min-width: 1025px) {
         padding: 25px;
     }
-
 }
 
 .container {
@@ -332,13 +326,13 @@ header {
     padding: 35px;
     justify-content: flex-end;
     margin-left: auto;
-
 }
 
 .lista {
     margin-top: 200px;
-    display: inline-block;
-    margin-left: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     list-style-type: none;
     overflow: hidden;
     color: #ffffff;
@@ -367,7 +361,6 @@ header {
     @media (min-width: 1025px) {
         padding: 15px;
         font-size: 18px;
-
     }
 }
 
