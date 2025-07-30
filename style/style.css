@@ -1,0 +1,271 @@
+html {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 85em;
+}
+
+#mainT {
+    margin-left: 15px;
+
+}
+
+#lista {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#lista li {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#lista li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+}
+
+#lista li a:hover {
+    color: #5f226b;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: auto;
+    align-items: center;
+    max-width: 100%;
+}
+
+#crecimiento {
+    font-size: 7vw;
+    margin: 35px;
+    margin-top: 10vw;
+    max-width: 100%;
+}
+
+.parrafada {
+    font-size:2vw;
+    padding: 10px;
+    width: 47%;
+    margin: 35px;
+    text-align: justify;
+    justify-content: auto;
+}
+
+.aprende {
+    display: inline-flex;
+    float: left;
+    background-color: #fff;
+    color: #111111;
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: normal;
+    line-height: 2.5;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin-left: 45px;
+    max-width: 200px;
+    margin: auto;
+}
+
+a.aprende:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#reborn {
+    padding-top: 90px;
+    width: 90%;
+    max-width: 100%;
+}
+
+#textaco {
+    margin-top: 5em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.textaco {
+    margin-top: 5em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3vw;
+    width: 36%;
+}
+
+.fotito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 60%
+}
+
+#fotito {
+    height: 650px;
+    width: 850px;
+    max-width: 100%;
+    gap: 35px;
+}
+
+.hiper {
+    flex: 40%;
+    padding-left: 360px;
+}
+
+.parrafote {
+    font-size: 1vw;
+    line-height: 40px;
+    width: 39%;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 5em;
+    gap: 90px;
+}
+
+.section3 {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#carta {
+    width: 30%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    float: left;
+
+}
+
+.fotos {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 60px;
+}
+
+#logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 250px;
+    padding-bottom: 9px;
+    gap: 150px;
+
+}
+
+.amigos {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.primero {
+    display: flex;
+    width: 100%;
+    float: left;
+    flex-direction: row;
+}
+
+.segundo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.lista {
+    margin-top: 200px;
+    display: inline-block;
+    margin-left: 7px;
+    list-style-type: none;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.lista li a {
+    display: block;
+    color: #fff;
+    padding: 20px;
+    font-size: 0.7vw;
+    text-decoration: none;
+}
+
+.lista li a:hover {
+    color: #5f226b;
+}
+
+#aprende {
+    display: inline-flex;
+    float: left;
+    background-color: #000000;
+    color: #ffffff;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: normal;
+    line-height: 2.5;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin-left: 45px;
+    max-width: 220px;
+    max-height: 80px;
+    margin: 0 auto;
+    border-color: #a09b9b;
+}
+
+a#aprende:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#logos {
+    margin-right: 100px;
+}
