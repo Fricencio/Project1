@@ -166,7 +166,7 @@ header .lista li a:hover {
 @media (min-width: 320px) {
   .textaco {
     margin-top: 35px;
-    font-size: 26px;
+    font-size: 25px;
     width: 36%;
   }
 }
@@ -180,14 +180,14 @@ header .lista li a:hover {
 @media (min-width: 769px) {
   .textaco {
     margin-top: 55px;
-    font-size: 46px;
+    font-size: 45px;
     width: 36%;
   }
 }
 @media (min-width: 1025px) {
   .textaco {
     margin-top: 75px;
-    font-size: 30px;
+    font-size: 55px;
     width: 36%;
   }
 }
@@ -206,7 +206,7 @@ header .lista li a:hover {
 
 .fotografia {
   height: auto;
-  width: 100%;
+  width: 75%;
 }
 
 .textos {
@@ -232,28 +232,28 @@ header .lista li a:hover {
   .parrafote {
     font-size: 15px;
     line-height: 30px;
-    width: auto;
+    width: 78%;
   }
 }
 @media (min-width: 769px) {
   .parrafote {
     font-size: 20px;
     line-height: 30px;
-    width: auto;
+    width: 68%;
   }
 }
 @media (min-width: 1025px) {
   .parrafote {
     font-size: 25px;
     line-height: 30px;
-    width: 100%;
+    width: 58%;
   }
 }
 @media (min-width: 1200px) {
   .parrafote {
     font-size: 35px;
     line-height: 40px;
-    width: 44%;
+    width: 48%;
   }
 }
 
@@ -271,7 +271,31 @@ header .lista li a:hover {
   justify-content: center;
   width: 90%;
   margin-top: 5em;
-  gap: 90px;
+}
+@media (min-width: 320px) {
+  .section2 {
+    gap: 40px;
+  }
+}
+@media (min-width: 481px) {
+  .section2 {
+    gap: 50px;
+  }
+}
+@media (min-width: 769px) {
+  .section2 {
+    gap: 60px;
+  }
+}
+@media (min-width: 1025px) {
+  .section2 {
+    gap: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .section2 {
+    gap: 90px;
+  }
 }
 
 .section3 {
@@ -299,8 +323,69 @@ header .lista li a:hover {
 .fotos {
   display: flex;
   flex-direction: row;
-  padding: 30px;
-  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 320px) {
+  .fotos {
+    gap: 50px;
+    padding: 10px;
+  }
+}
+@media (min-width: 481px) {
+  .fotos {
+    gap: 60px;
+    padding: 20px;
+  }
+}
+@media (min-width: 769px) {
+  .fotos {
+    gap: 80px;
+    padding: 30px;
+  }
+}
+@media (min-width: 1025px) {
+  .fotos {
+    gap: 100px;
+    padding: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .fotos {
+    gap: 200px;
+    padding: 50px;
+  }
+}
+
+@media (min-width: 320px) {
+  img {
+    width: 56.25px;
+    height: 43.75px;
+  }
+}
+@media (min-width: 481px) {
+  img {
+    width: 112.5px;
+    height: 87.5px;
+  }
+}
+@media (min-width: 769px) {
+  img {
+    width: 225px;
+    height: 175px;
+  }
+}
+@media (min-width: 1025px) {
+  img {
+    width: 450px;
+    height: 350px;
+  }
+}
+@media (min-width: 1200px) {
+  img {
+    width: 900px;
+    height: 700px;
+  }
 }
 
 #logos {
@@ -329,9 +414,28 @@ header .lista li a:hover {
 .segundo {
   display: flex;
   flex-direction: row;
-  padding: 35px;
   justify-content: flex-end;
   margin-left: auto;
+}
+@media (min-width: 320px) {
+  .segundo {
+    padding: 4.37px;
+  }
+}
+@media (min-width: 481px) {
+  .segundo {
+    padding: 8.75px;
+  }
+}
+@media (min-width: 769px) {
+  .segundo {
+    padding: 17.5px;
+  }
+}
+@media (min-width: 1025px) {
+  .segundo {
+    padding: 35px;
+  }
 }
 
 .lista {
@@ -376,11 +480,6 @@ header .lista li a:hover {
 
 .lista li a:hover {
   color: #5f226b;
-}
-
-img {
-  width: 500px;
-  height: 400px;
 }
 
 .lego {
