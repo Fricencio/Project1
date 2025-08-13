@@ -190,11 +190,39 @@ header {
 }
 
 .movida {
-    padding: 100px;
+    @media (min-width: 320px) {
+        padding: 25px;
+    }
+
+    @media (min-width: 481px) {
+        padding: 50px;
+    }
+
+    @media (min-width: 769px) {
+        padding: 75px;
+    }
+
+    @media (min-width: 1025px) {
+        padding: 100px;
+    }
 }
 
 .sangria {
-    padding: 100px;
+    @media (min-width: 320px) {
+        padding: 25px;
+    }
+
+    @media (min-width: 481px) {
+        padding: 50px;
+    }
+
+    @media (min-width: 769px) {
+        padding: 75px;
+    }
+
+    @media (min-width: 1025px) {
+        padding: 100px;
+    }
 }
 
 .fotografia {
@@ -357,6 +385,7 @@ header {
 }
 
 img {
+
     @media (min-width: 320px) {
         width: 56.25px;
         height: 43.75px;
@@ -381,7 +410,6 @@ img {
         width: 900px;
         height: 700px;
     }
-
 }
 
 #logos {
@@ -390,10 +418,30 @@ img {
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 250px;
-    padding-bottom: 9px;
-    gap: 150px;
 
+    @media (min-width: 320px) {
+        margin-top: 50px;
+        padding-bottom: 9px;
+        gap: 50px;
+    }
+
+    @media (min-width: 481px) {
+        margin-top: 100px;
+        padding-bottom: 9px;
+        gap: 50px;
+    }
+
+    @media (min-width: 769px) {
+        margin-top: 150px;
+        padding-bottom: 9px;
+        gap: 100px;
+    }
+
+    @media (min-width: 1025px) {
+        margin-top: 200px;
+        padding-bottom: 9px;
+        gap: 150px;
+    }
 }
 
 .amigos {
@@ -433,13 +481,28 @@ img {
 }
 
 .lista {
-    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     list-style-type: none;
     overflow: hidden;
     color: #ffffff;
+
+    @media (min-width: 320px) {
+        margin-top: 50px;
+    }
+
+    @media (min-width: 481px) {
+        margin-top: 100px;
+    }
+
+    @media (min-width: 769px) {
+        margin-top: 150px;
+    }
+
+    @media (min-width: 1025px) {
+        margin-top: 200px;
+    }
 }
 
 .lista li a {
@@ -473,11 +536,47 @@ img {
 }
 
 .lego {
-    width: 170px;
-    height: 55px;
+    @media (min-width: 320px) {
+        width: 42.5px;
+        height: 13.75px;
+    }
+
+    @media (min-width: 481px) {
+        width: 56.6px;
+        height: 18.3px;
+        ;
+    }
+
+    @media (min-width: 769px) {
+        width: 85px;
+        height: 27.5px;
+    }
+
+    @media (min-width: 1025px) {
+        width: 170px;
+        height: 55px;
+    }
+
 }
 
 .final {
-    width: 40px;
-    height: 40px;
+    @media (min-width: 320px) {
+        width: 10px;
+        height: 10px;
+    }
+
+    @media (min-width: 481px) {
+        width: 20px;
+        height: 20px;
+    }
+
+    @media (min-width: 769px) {
+        width: 30px;
+        height: 30px;
+    }
+
+    @media (min-width: 1025px) {
+        width: 40px;
+        height: 40px;
+    }
 }

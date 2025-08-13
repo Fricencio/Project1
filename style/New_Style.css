@@ -196,12 +196,46 @@ header .lista li a:hover {
   flex: 50%;
 }
 
-.movida {
-  padding: 100px;
+@media (min-width: 320px) {
+  .movida {
+    padding: 25px;
+  }
+}
+@media (min-width: 481px) {
+  .movida {
+    padding: 50px;
+  }
+}
+@media (min-width: 769px) {
+  .movida {
+    padding: 75px;
+  }
+}
+@media (min-width: 1025px) {
+  .movida {
+    padding: 100px;
+  }
 }
 
-.sangria {
-  padding: 100px;
+@media (min-width: 320px) {
+  .sangria {
+    padding: 25px;
+  }
+}
+@media (min-width: 481px) {
+  .sangria {
+    padding: 50px;
+  }
+}
+@media (min-width: 769px) {
+  .sangria {
+    padding: 75px;
+  }
+}
+@media (min-width: 1025px) {
+  .sangria {
+    padding: 100px;
+  }
 }
 
 .fotografia {
@@ -410,9 +444,34 @@ header .lista li a:hover {
   align-items: center;
   justify-content: center;
   margin: auto;
-  margin-top: 250px;
-  padding-bottom: 9px;
-  gap: 150px;
+}
+@media (min-width: 320px) {
+  #logos {
+    margin-top: 50px;
+    padding-bottom: 9px;
+    gap: 50px;
+  }
+}
+@media (min-width: 481px) {
+  #logos {
+    margin-top: 100px;
+    padding-bottom: 9px;
+    gap: 50px;
+  }
+}
+@media (min-width: 769px) {
+  #logos {
+    margin-top: 150px;
+    padding-bottom: 9px;
+    gap: 100px;
+  }
+}
+@media (min-width: 1025px) {
+  #logos {
+    margin-top: 200px;
+    padding-bottom: 9px;
+    gap: 150px;
+  }
 }
 
 .amigos {
@@ -455,13 +514,32 @@ header .lista li a:hover {
 }
 
 .lista {
-  margin-top: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   list-style-type: none;
   overflow: hidden;
   color: #ffffff;
+}
+@media (min-width: 320px) {
+  .lista {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 481px) {
+  .lista {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 769px) {
+  .lista {
+    margin-top: 150px;
+  }
+}
+@media (min-width: 1025px) {
+  .lista {
+    margin-top: 200px;
+  }
 }
 
 .lista li a {
@@ -498,12 +576,52 @@ header .lista li a:hover {
   color: #5f226b;
 }
 
-.lego {
-  width: 170px;
-  height: 55px;
+@media (min-width: 320px) {
+  .lego {
+    width: 42.5px;
+    height: 13.75px;
+  }
+}
+@media (min-width: 481px) {
+  .lego {
+    width: 56.6px;
+    height: 18.3px;
+  }
+}
+@media (min-width: 769px) {
+  .lego {
+    width: 85px;
+    height: 27.5px;
+  }
+}
+@media (min-width: 1025px) {
+  .lego {
+    width: 170px;
+    height: 55px;
+  }
 }
 
-.final {
-  width: 40px;
-  height: 40px;
+@media (min-width: 320px) {
+  .final {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media (min-width: 481px) {
+  .final {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 769px) {
+  .final {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 1025px) {
+  .final {
+    width: 40px;
+    height: 40px;
+  }
 }/*# sourceMappingURL=New_Style.css.map */
